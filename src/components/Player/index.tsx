@@ -1,12 +1,12 @@
+import styles from './styles.module.scss'
+import 'rc-slider/assets/index.css'
 import Image from 'next/image'
-import { useEffect, useRef, useState } from 'react'
 import Slider from 'rc-slider'
 
-import 'rc-slider/assets/index.css'
+import { useEffect, useRef, useState } from 'react'
 
 import { usePlayer } from '../../context/PlayerContext';
 
-import styles from './styles.module.scss'
 import { convertDurationToTimeString } from '../../utils/convertDurationToTimeString';
 
 export function Player() {

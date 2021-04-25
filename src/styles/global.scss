@@ -5,13 +5,13 @@
 }
 
 :root {
-  --white: #FFF;
+  --white: rgba(255, 255, 255, 0.774);
 
   --gray-50: #F7F8FA;
-  --gray-100: #E6E8EB;
+  --gray-100: #e6e8ebe0;
   --gray-200: #AFB2B1;
   --gray-500: #808080;
-  --gray-800: #494D4B;
+  --gray-800: #282c36;
 
   --green-500: #04D361;
 
@@ -38,12 +38,12 @@
 }
 
 body {
-  background: var(--gray-50);
+  background: var(--gray-800);
 }
 
 body, input, textarea, button {
   font: 500 1rem Inter, sans-serif;
-  color: var(--gray-500);
+  color: var(--gray-100);
 }
 
 h1, h2, h3, h4, h5, h6 {
